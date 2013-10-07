@@ -1,4 +1,1 @@
-dotfiles
-========
-
-vim, screen etc. configs
+Configs to go.

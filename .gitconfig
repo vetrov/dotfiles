@@ -1,0 +1,22 @@
+[user]
+	name = Alexander Vetrov
+	email = alex.vetrov@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	app = commit --amend -C HEAD
+	br = branch
+	ci = commit
+	co = checkout
+	di = diff -M -C -C
+	dic = diff -M -C -C --cached
+	lg = log -M -C -C --name-status
+	sh = show -M -C -C
+	st = status
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[svn]
+	rmdir = true
+[branch]
+	autosetuprebase = always
